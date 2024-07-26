@@ -1,0 +1,21 @@
+.username-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.username-form {
+  background-color: var(--sidebar-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+}
+
+.error-alert {
+  color: #ff6666;
+}

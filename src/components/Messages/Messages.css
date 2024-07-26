@@ -1,0 +1,15 @@
+.messages-container {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.messages {
+  overflow: auto;
+  margin: 0 20px;
+}
+
+.messages-container input {
+  margin: 20px;
+}

@@ -1,0 +1,44 @@
+:root {
+  --background-color: #303338;
+  --sidebar-color: #2a2d31;
+  --primary-color: #7289da;
+  --secondary-color: #5f74a8;
+  --input-color: #373a3f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+main {
+  background-color: var(--background-color);
+  color: #fff;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.discord-button {
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+.discord-button:hover {
+  background-color: var(--secondary-color);
+}

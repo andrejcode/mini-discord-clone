@@ -1,0 +1,14 @@
+.user-and-timestamp-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-and-timestamp-container .timestamp {
+  font-size: 12px;
+  margin-left: 14px;
+}
+
+.message-container .message {
+  margin: 0 40px;
+}

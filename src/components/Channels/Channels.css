@@ -1,0 +1,7 @@
+.channel-container li {
+  list-style-type: none;
+}
+
+.active-channel {
+  background-color: var(--input-color);
+}

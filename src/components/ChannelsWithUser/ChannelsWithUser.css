@@ -1,0 +1,13 @@
+.channels-container-with-user {
+  background-color: var(--sidebar-color);
+  min-width: 200px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.disconnect-button-container {
+  display: flex;
+  justify-content: space-between;
+}

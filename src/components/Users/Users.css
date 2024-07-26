@@ -1,0 +1,16 @@
+.users-container {
+  background-color: var(--sidebar-color);
+  padding: 16px;
+  min-width: 200px;
+  overflow: auto;
+}
+
+.user-status {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.offline-users {
+  margin-top: 16px;
+}

@@ -1,0 +1,13 @@
+.discord-input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  background-color: var(--input-color);
+  color: #fff;
+}
+
+.discord-input:focus {
+  outline: 1px solid var(--primary-color);
+}
